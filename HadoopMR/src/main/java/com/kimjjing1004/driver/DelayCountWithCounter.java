@@ -31,9 +31,10 @@ public class DelayCountWithCounter extends Configured implements Tool {
 		// GenericOptionParser에서 제공하는 파라미터를 제외한 나머지 파라미터 가져오기
 		String[] otherArgs = new GenericOptionsParser(getConf(), args).getRemainingArgs();
 		if (otherArgs.length != 2) {
-			System.err.println("Usage: DelayCountWithCounter <in> <out>");
+			System.out.println("Usage: DelayCountWithCounter <in> <out>");
 			System.exit(2);
 		}
+		
 		Job job = Job.getInstance(getConf(), "DelayCount");
 		
 		
