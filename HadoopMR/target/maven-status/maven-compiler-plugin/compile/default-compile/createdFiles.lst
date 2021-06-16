@@ -1,10 +1,13 @@
 com\kimjjing1004\mapper\WordCountMapper.class
 com\kimjjing1004\mapper\DelayCountMapper.class
+com\kimjjing1004\reducer\DelayCountReducerWithMultipleOutputs.class
 com\kimjjing1004\mapper\DelayCountMapperWithCounter.class
 com\kimjjing1004\driver\DelayCount.class
+com\kimjjing1004\mapper\DelayCountMapperWithMultipleOutputs.class
 com\kimjjing1004\mapper\ArrivalDelayCountMapper.class
 com\kimjjing1004\mapper\DepartureDelayCountMapper.class
 com\kimjjing1004\driver\DepartureDelayCount.class
+com\kimjjing1004\driver\DelayCountWithMultipleOutputs.class
 com\kimjjing1004\counter\DelayCounters.class
 com\kimjjing1004\driver\WordCount.class
 com\kimjjing1004\common\AirlinePerformanceParser.class
